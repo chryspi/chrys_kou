@@ -79,18 +79,18 @@ div .carousel-item img{
 	left:27%;
 	border:3px solid #a2d2df;
 	border-radius:25px;
-    margin-left:auto;
-    margin-top:70px;
-    position:fixed;
-    background-color:white!important;
+        margin-left:auto;
+        margin-top:70px;
+        position:fixed;
+        background-color:white!important;
     
 }
 
 div .carousel-item{
 	background-color:navy;
 	border-top:3px solid #a2d2df;
-    border-bottom:3px solid #a2d2df;
-    box-shadow:2px 2px 5px 5px #a2d2df
+        border-bottom:3px solid #a2d2df;
+        box-shadow:2px 2px 5px 5px #a2d2df
     
 }
 
