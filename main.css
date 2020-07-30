@@ -6,11 +6,13 @@ body{
 
 .navbar{
 	border-right:2px;
+	background-color:#a2d2df;
 }
 .nav-link{
-	color:white!important;
-	border-right:2px solid white;
-	box-shadow:2px 2px 5px #a2d2df;
+	color:navy!important;
+	font-weight:800;
+	
+	
 }
 .navbar-toggler-icon
 {
@@ -22,9 +24,9 @@ body{
 	font-size:32px;
 	background-color:navy;
 	padding:12px;
-        border:5px solid orange;
-        text-shadow: 2px 2px 5px orange;
-        box-shadow:2px 2px 5px gold;
+    border:5px solid orange;
+    text-shadow: 2px 2px 5px orange;
+    box-shadow:2px 2px 5px gold;
 
     
 }
@@ -32,8 +34,8 @@ body{
 #logo:hover{
 	color:#a2d2df;
 	border:5px solid #a2d2df;
-        text-shadow: 2px 2px 5px white;
-        box-shadow:2px 2px 5px white;
+    text-shadow: 2px 2px 5px white;
+    box-shadow:2px 2px 5px white;
 	
 }
 
@@ -41,8 +43,10 @@ ul{
 	font-size:20px;
 }
 ul li a:hover{
-	color:gold!important;
-	text-shadow: 2px 2px 5px orange;
+	color:white!important;
+	border-bottom:2px solid white;
+	box-shadow:2px 2px 5px #a2d2df;
+	text-shadow: 2px 2px 5px white;
 }
 
 #carouselExampleControls{
@@ -53,7 +57,7 @@ ul li a:hover{
 
 
 .carousel-item p{
-    font-weight:800;
+	font-weight:800;
     font-size:18px;
     color:#a2d2df;
     text-align:center;
@@ -66,6 +70,7 @@ ul li a:hover{
     margin:auto;
     margin-top:5px;
     box-shadow:2px 2px 5px #a2d2df
+    
 
 
 }
@@ -79,18 +84,20 @@ div .carousel-item img{
 	left:27%;
 	border:3px solid #a2d2df;
 	border-radius:25px;
-        margin-left:auto;
-        margin-top:70px;
-        position:fixed;
-        background-color:white!important;
+    margin-left:auto;
+    margin-top:70px;
+    position:fixed;
+    background-color:white!important;
     
 }
 
 div .carousel-item{
 	background-color:navy;
 	border-top:3px solid #a2d2df;
-        border-bottom:3px solid #a2d2df;
-        box-shadow:2px 2px 5px 5px #a2d2df
+    border-bottom:3px solid #a2d2df;
+    box-shadow:2px 2px 5px 5px #a2d2df
     
 }
+
+
 
