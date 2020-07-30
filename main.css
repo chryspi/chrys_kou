@@ -22,9 +22,9 @@ body{
 	font-size:32px;
 	background-color:navy;
 	padding:12px;
-    border:5px solid orange;
-    text-shadow: 2px 2px 5px orange;
-    box-shadow:2px 2px 5px gold;
+        border:5px solid orange;
+        text-shadow: 2px 2px 5px orange;
+        box-shadow:2px 2px 5px gold;
 
     
 }
@@ -32,8 +32,8 @@ body{
 #logo:hover{
 	color:#a2d2df;
 	border:5px solid #a2d2df;
-    text-shadow: 2px 2px 5px white;
-    box-shadow:2px 2px 5px white;
+        text-shadow: 2px 2px 5px white;
+        box-shadow:2px 2px 5px white;
 	
 }
 
@@ -53,11 +53,11 @@ ul li a:hover{
 
 
 .carousel-item p{
-	font-weight:800;
+    font-weight:800;
     font-size:18px;
     color:#a2d2df;
     text-align:center;
-    background-color:#396d7c;
+    background-color:navy;
     border-left:3px solid #a2d2df;
     border-right:3px solid #a2d2df;
     width:200px;
