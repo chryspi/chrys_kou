@@ -1,3 +1,18 @@
+body{
+	background-image:url("bg.jpg");
+}
+
+.navbar{
+	background-color:;
+}
+
+#logo{
+	color:Gold;
+	font-family: 'Rowdies', cursive;
+	font-size:32px;
+    
+}
+
 #logo:hover{
 	color:silver;
 	
