@@ -7,23 +7,33 @@ body{
 .navbar{
 	border-right:2px;
 }
-
+.nav-link{
+	color:white!important;
+	border-right:2px solid white;
+	box-shadow:2px 2px 5px #a2d2df;
+}
+.navbar-toggler-icon
+{
+	border-radius:25px!important;
+}
 #logo{
-	color:Gold;
+	color:gold;
 	font-family: 'Rowdies', cursive;
 	font-size:32px;
 	background-color:navy;
 	padding:12px;
-    border:5px solid gold;
-   
+    border:5px solid orange;
+    text-shadow: 2px 2px 5px orange;
+    box-shadow:2px 2px 5px gold;
 
     
 }
 
 #logo:hover{
-	color:silver;
-    border:5px solid silver;
-
+	color:#a2d2df;
+	border:5px solid #a2d2df;
+    text-shadow: 2px 2px 5px white;
+    box-shadow:2px 2px 5px white;
 	
 }
 
@@ -32,23 +42,32 @@ ul{
 }
 ul li a:hover{
 	color:gold!important;
+	text-shadow: 2px 2px 5px orange;
 }
 
 #carouselExampleControls{
 	margin-top:50px;
+
 }
 
+
+
 .carousel-item p{
-    font-size:15px;
-    color:white;
+	font-weight:800;
+    font-size:18px;
+    color:#a2d2df;
     text-align:center;
-    background-color:navy;
-    border:3px solid gold;
+    background-color:#396d7c;
+    border-left:3px solid #a2d2df;
+    border-right:3px solid #a2d2df;
     width:200px;
     padding:10px;
     border-radius:25px;
     margin:auto;
     margin-top:5px;
+    box-shadow:2px 2px 5px #a2d2df
+
+
 }
 
 div .carousel-item img{
@@ -58,10 +77,20 @@ div .carousel-item img{
 	max-height:45%;
 	top:30%;
 	left:27%;
-	border:3px solid navy;
+	border:3px solid #a2d2df;
 	border-radius:25px;
     margin-left:auto;
     margin-top:70px;
     position:fixed;
+    background-color:white!important;
+    
+}
+
+div .carousel-item{
+	background-color:navy;
+	border-top:3px solid #a2d2df;
+    border-bottom:3px solid #a2d2df;
+    box-shadow:2px 2px 5px 5px #a2d2df
+    
 }
 
