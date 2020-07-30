@@ -1,25 +1,6 @@
-body{
-	background-image:url("bg.jpg")!important;
-}
-
-.navbar{
-	background-color:;
-}
-
-#logo{
-	color:Gold;
-	font-family: 'Rowdies', cursive;
-	font-size:32px;
-    
-}
-
 #logo:hover{
 	color:silver;
 	
-}
-.collapse navbar-collapse {
-  float: left;
-  margin-left: 10px;
 }
 
 ul{
@@ -29,3 +10,13 @@ ul li a:hover{
 	color:gold!important;
 }
 
+div .carousel-item img{
+	width:200px;
+	height:400px;
+}
+
+.carousel-item p{
+    font-size:15px;
+    color:white;
+    text-align:center;
+}
