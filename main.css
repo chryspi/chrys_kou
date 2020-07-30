@@ -1,20 +1,29 @@
 body{
-	background-image:url("bg.jpeg");
+	background-image:url("bg.jpg");
+	background-color: rgba(117, 107, 141, 0.92)
+;
 }
 
 .navbar{
-	background-color:;
+	border-right:2px;
 }
 
 #logo{
 	color:Gold;
 	font-family: 'Rowdies', cursive;
 	font-size:32px;
+	background-color:navy;
+	padding:12px;
+    border:5px solid gold;
+   
+
     
 }
 
 #logo:hover{
 	color:silver;
+    border:5px solid silver;
+
 	
 }
 
@@ -25,13 +34,34 @@ ul li a:hover{
 	color:gold!important;
 }
 
-div .carousel-item img{
-	width:200px;
-	height:400px;
+#carouselExampleControls{
+	margin-top:50px;
 }
 
 .carousel-item p{
     font-size:15px;
     color:white;
     text-align:center;
+    background-color:navy;
+    border:3px solid gold;
+    width:200px;
+    padding:10px;
+    border-radius:25px;
+    margin:auto;
+    margin-top:5px;
 }
+
+div .carousel-item img{
+	width:50%;
+	height:300px;
+	max-width:45%;
+	max-height:45%;
+	top:30%;
+	left:27%;
+	border:3px solid navy;
+	border-radius:25px;
+    margin-left:auto;
+    margin-top:70px;
+    position:fixed;
+}
+
