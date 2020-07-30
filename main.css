@@ -82,12 +82,12 @@ div .carousel-item img{
 	max-height:45%;
 	top:30%;
 	left:27%;
-	border:3px solid #a2d2df;
+	border:3px solid navy;
 	border-radius:25px;
-    margin-left:auto;
-    margin-top:70px;
-    position:fixed;
-    background-color:white!important;
+        margin-left:auto;
+        margin-top:70px;
+        position:fixed;
+        
     
 }
 
